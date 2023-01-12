@@ -1,6 +1,8 @@
 # revolut-statement-categorizer
 Serverless script you can run to categorize your expenses. Put your revolut statement in the input folder and set the rules for categories in a JSON file.
 
+<img width="744" alt="Screenshot 2023-01-12 at 18 20 14" src="https://user-images.githubusercontent.com/1498951/212027583-dc718845-a90d-48a4-bccd-784282ed4695.png">
+
 ### How to bootstrap
 1. make sure you are in `revolut-statement-categorizer` folder
 2. make sure you've run `npm install`
