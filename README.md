@@ -3,6 +3,7 @@ Serverless script you can run to categorize your expenses. 💯 local and secure
 
 Split your statement by periods, define categories for every period, easily access unidentified transactions!
 
+Output examples:
 <img width="671" alt="Screenshot 2023-01-12 at 18 21 39" src="https://user-images.githubusercontent.com/1498951/212027941-e76fd257-a1b8-42e8-932e-d188b4af8d52.png">             |  <img width="681" alt="Screenshot 2023-01-12 at 18 22 18" src="https://user-images.githubusercontent.com/1498951/212028095-2cabac85-b46d-44b5-b0a4-8c59669da916.png">
 :-------------------------:|:-------------------------:
 <img width="693" alt="Screenshot 2023-01-12 at 18 22 42" src="https://user-images.githubusercontent.com/1498951/212028280-4f08cc0e-4e49-4acd-a09c-59cca349adb1.png">  |  <img width="513" alt="Screenshot 2023-01-12 at 18 22 51" src="https://user-images.githubusercontent.com/1498951/212028272-4a53d226-92fe-4ec0-944b-afa2fb1b3d57.png">
