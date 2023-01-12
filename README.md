@@ -1,7 +1,11 @@
 # revolut-statement-categorizer
-Serverless script you can run to categorize your expenses. Put your revolut statement in the input folder and set the rules for categories in a JSON file.
+Serverless script you can run to categorize your expenses. 💯 local and secure. <br /> Put your revolut statement in the input folder and set the rules for categories in a JSON file.
 
-<img width="744" alt="Screenshot 2023-01-12 at 18 20 14" src="https://user-images.githubusercontent.com/1498951/212027583-dc718845-a90d-48a4-bccd-784282ed4695.png">
+Split your statement by periods, define categories for every period, easily access unidentified transactions!
+
+<img width="671" alt="Screenshot 2023-01-12 at 18 21 39" src="https://user-images.githubusercontent.com/1498951/212027941-e76fd257-a1b8-42e8-932e-d188b4af8d52.png">             |  <img width="681" alt="Screenshot 2023-01-12 at 18 22 18" src="https://user-images.githubusercontent.com/1498951/212028095-2cabac85-b46d-44b5-b0a4-8c59669da916.png">
+:-------------------------:|:-------------------------:
+<img width="693" alt="Screenshot 2023-01-12 at 18 22 42" src="https://user-images.githubusercontent.com/1498951/212028280-4f08cc0e-4e49-4acd-a09c-59cca349adb1.png">  |  <img width="513" alt="Screenshot 2023-01-12 at 18 22 51" src="https://user-images.githubusercontent.com/1498951/212028272-4a53d226-92fe-4ec0-944b-afa2fb1b3d57.png">
 
 ### How to bootstrap
 1. make sure you are in `revolut-statement-categorizer` folder
@@ -47,7 +51,7 @@ and `places` meaning categories, like
         name: 'Cash',
         matches: ['Cash at']
     },
-```.
+```
 
 ### `matches` property in `places` in `config.js`
 This property will be used as a subscring search in the description field of every transaction. It is *case-sensitive*.
@@ -56,3 +60,4 @@ This property will be used as a subscring search in the description field of eve
 * Please bear in mind that if a transaction row can be added to one `period` only
 * Supports only USD and GBP, but you should be able to edit this easily
 * GBP to USD rate is constant as of Jan 2023, search for `usdToGbp`
+* Appologies to the sensitive code readers. I steched this project on vacation and the MVP works for me. 
